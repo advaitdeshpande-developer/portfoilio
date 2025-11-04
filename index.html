@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advait Gajanan Deshpande | Portfolio</title>
+    <meta name="description" content="Portfolio of Advait Gajanan Deshpande — Full Stack MERN Developer & Software Developer." />
+    <meta name="theme-color" content="#0b1020" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Advait Gajanan Deshpande | Portfolio" />
+    <meta property="og:description" content="Full Stack MERN Developer & Software Developer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="imgs/profile_photo.jpg" />
+    <meta property="og:url" content="https://example.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="antialiased">
+    <header class="navbar" id="navbar">
+      <nav class="nav-container">
+        <a href="https://github.com/advaitdeshpande-developer?tab=repositories" target="_blank" rel="noreferrer" class="logo">Advait G D</a>
+        <div class="nav-controls">
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">Dark</button>
+          <button id="mobile-menu-btn" class="mobile-menu-btn" aria-expanded="false" aria-controls="mobile-menu">
+            <span class="sr-only">Open main menu</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#events">Participation & Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu" class="mobile-menu" style="display: none;">
+        <ul class="mobile-menu-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#events">Participation & Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section id="home" class="section">
+        <div class="hero-grid">
+          <div class="hero-image-wrapper">
+            <img src="imgs/profile_photo.jpg" alt="Profile of Advait Gajanan Deshpande" class="profile-image" />
+            <p class="profile-quote">"Learning, Building, and Improving Step by Step."</p>
+          </div>
+          <div class="hero-content">
+            <h1 class="hero-title">Advait Gajanan Deshpande</h1>
+            <p class="hero-subtitle">Full Stack MERN Developer & Software Developer</p>
+            <p class="hero-subtitle">Director E-Cell RSCOE</p>
+            <p class="hero-description">
+              Building elegant, performant, and accessible web applications with a focus on user experience and engineering best practices.
+            </p>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+              <a href="resume.pdf" class="btn btn-outline" download>Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="about-grid">
+          <div>
+            <h2 class="section-title">About</h2>
+            <p class="about-text">
+              I'm Advait Gajanan Deshpande, a passionate B.Tech student in Computer Science & Business Systems at JSPM's RSCOE. I enjoy coding, solving real-world problems, and continuously learning new technologies. Focused on Full Stack MERN development and software engineering, I strive to build production-ready applications and grow as an engineer every day.
+            </p>
+            <div class="work-section">
+              <h3 class="subsection-title">Work / Roles</h3>
+              <ul class="work-list">
+                <li>Internship at Shivohini Tech AI Pvt. Ltd.</li>
+                <li>Campus Ambassador — E-Cell, IIT Bombay</li>
+                <li>Director — E-Cell, RSCOE</li>
+                <li>Working on startup <strong>BuildLink</strong></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h3 class="section-title">Education</h3>
+            <ol class="timeline">
+              <li class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="timeline-title">10th Grade – Shri Lalbhadur Shastri Vidhyalay, Latur</p>
+                <p class="timeline-subtitle">93.80%</p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="timeline-title">Diploma in Information Technology – Purnmal Lahoti Government Polytechnic, Latur</p>
+                <p class="timeline-subtitle">84%</p>
+              </li>
+              <li class="timeline-item">
+                <span class="timeline-dot"></span>
+                <p class="timeline-title">B.Tech in CSBS – JSPM Rajarshi Shahu College of Engineering</p>
+                <p class="timeline-subtitle">Currently 3rd year, CGPA: 9.2</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3 class="skill-category">Programming Languages</h3>
+            <div class="skill-meters">
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Python</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>C++</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>C</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>JavaScript</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-category">Data & Analytics</h3>
+            <div class="skill-meters">
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>SQL</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>MongoDB</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Data Analysis</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Excel</span>
+                  <span>88%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-category">Development & Tools</h3>
+            <div class="skill-meters">
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Web Development</span>
+                  <span>95%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Git/GitHub</span>
+                  <span>85%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-meter">
+                <div class="skill-meter-header">
+                  <span>Linux</span>
+                  <span>78%</span>
+                </div>
+                <div class="skill-meter-bar">
+                  <div class="skill-meter-fill" style="width: 78%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="skills-note">Continuously learning advanced AI/ML frameworks, cloud technologies, and automation tools.</p>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+          <div class="project-card">
+            <img src="assets/project-wedding.png" alt="Wedding Website preview" class="project-image" />
+            <div class="project-content">
+              <h3 class="project-title">Wedding Website</h3>
+              <p class="project-description">Quick access to photos, invitation and management — built with React.</p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Vite</span>
+                <span class="project-tag">Tailwind</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/advaitdeshpande-developer/Wedding-Website-preview" target="_blank" rel="noreferrer" class="project-link">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="assets/project-buildlink.png" alt="BuildLink preview" class="project-image" />
+            <div class="project-content">
+              <h3 class="project-title">BuildLink</h3>
+              <p class="project-description">Real estate project inspired by Ola/Uber concept.</p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Node</span>
+                <span class="project-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/advaitdeshpande-developer/BuildLink" target="_blank" rel="noreferrer" class="project-link">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-footer">
+          <a href="https://github.com/advaitdeshpande-developer?tab=repositories" target="_blank" rel="noreferrer" class="btn btn-outline">View All Projects on GitHub</a>
+        </div>
+      </section>
+
+      <section id="certifications" class="section">
+        <h2 class="section-title">Certifications & Courses</h2>
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <img src="imgs/National Scienc Day Competition.jpg" alt="National Science Day Competition certificate" class="cert-image" />
+            <div class="cert-content">
+              <h3 class="cert-title">National Science Day Competition</h3>
+            </div>
+          </div>
+          <div class="cert-card">
+            <img src="imgs/Nss Certificate.jpg" alt="NSS Certificate certificate" class="cert-image" />
+            <div class="cert-content">
+              <h3 class="cert-title">NSS Certificate</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="section">
+        <h2 class="section-title">Participation & Events</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <img src="imgs/campus ambasidor.jpg" alt="Campus Ambassador Letter document" class="event-image" />
+            <div class="event-content">
+              <h3 class="event-title">Campus Ambassador Letter</h3>
+            </div>
+          </div>
+          <div class="event-card">
+            <img src="imgs/codewolf.jpg" alt="CodeWolf 5.0 Participation document" class="event-image" />
+            <div class="event-content">
+              <h3 class="event-title">CodeWolf 5.0 Participation</h3>
+            </div>
+          </div>
+          <div class="event-card">
+            <img src="imgs/e-cell.jpg" alt="MOD Appointment letter document" class="event-image" />
+            <div class="event-content">
+              <h3 class="event-title">MOD Appointment letter</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:advaitdeshpande25@gmail.com" class="contact-link">advaitdeshpande25@gmail.com</a></p>
+            <p class="contact-item"><strong>Phone:</strong> +91 8010484985</p>
+            <p class="contact-item"><strong>Location:</strong> Pune, Maharashtra, India</p>
+            <div class="contact-social">
+              <a href="https://github.com/advaitdeshpande-developer?tab=repositories" target="_blank" rel="noreferrer" class="social-link">GitHub</a>
+              <a href="https://www.linkedin.com/in/advait-deshpande-227180343/" target="_blank" rel="noreferrer" class="social-link">LinkedIn</a>
+            </div>
+          </div>
+          <form id="contact-form" class="contact-form" aria-label="Contact form">
+            <div id="form-error" class="form-message form-error" role="alert" style="display: none;"></div>
+            <div id="form-success" class="form-message form-success" role="status" style="display: none;">Thanks! Your message has been sent.</div>
+            <div id="form-fail" class="form-message form-fail" role="alert" style="display: none;">Couldn't send. Please email directly.</div>
+            <div>
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" type="text" class="form-input" required />
+            </div>
+            <div>
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" type="email" class="form-input" required />
+            </div>
+            <div>
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" rows="4" class="form-input" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+              <a href="mailto:advaitdeshpande25@gmail.com" class="form-email-link">Email instead</a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="current-year"></span> Advait Gajanan Deshpande. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
